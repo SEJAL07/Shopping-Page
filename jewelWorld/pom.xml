@@ -13,6 +13,14 @@
 	</properties>
 
 	<dependencies>
+
+		<!-- connecting backend -->
+		<dependency>
+				<groupId>com.web</groupId>
+	<artifactId>shoppingbackend</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+		</dependency>
 		<!-- JAVAEE -->
 		<dependency>
 			<groupId>javax</groupId>
@@ -35,7 +43,7 @@
 			<artifactId>spring-webmvc</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
-		
+
 		<!--JSTL -->
 
 		<dependency>
@@ -43,8 +51,8 @@
 			<artifactId>jstl</artifactId>
 			<version>1.2</version>
 		</dependency>
-		
-		
+
+
 	</dependencies>
 	<build>
 		<finalName>jewelWorld</finalName>
